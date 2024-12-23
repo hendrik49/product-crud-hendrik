@@ -6,4 +6,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
     - php artisan optimize
     - php artisan serve
 
-    ![Image Alt Text]("public/Screen Shot 2024-12-23 at 11.46.02.png")
+![Screenshot](public/sc1.png)
+![Screenshot](public/sc2.png)
+![Screenshot](public/sc3.png)
+![Screenshot](public/sc4.png)
