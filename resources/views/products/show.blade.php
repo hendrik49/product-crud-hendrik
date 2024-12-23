@@ -10,7 +10,7 @@
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 bg-white border-b border-gray-200">
                     <h5 class="card-title"><strong>Name:</strong> {{ $product->name }}</h5>
-                    <h6 class="card-subtitle mb-2 text-muted"><strong>Price:</strong> Rm{{ number_format($product->price, 2) }}</h6>
+                    <h6 class="card-subtitle mb-2 text-muted"><strong>Price:</strong> RM {{ number_format($product->price, 2) }}</h6>
                     <p class="card-text"><strong>Details:</strong> {{ $product->detail }}</p>
                     <p class="card-text">
                         <strong>Status:</strong> {{ $product->is_publish ? 'Published' : 'Not Published' }}

@@ -18,7 +18,7 @@
                             <tr class="border-b">
                                 <th class="px-4 py-2">#</th>
                                 <th class="px-4 py-2">Name</th>
-                                <th class="px-4 py-2">Price (Rm)</th>
+                                <th class="px-4 py-2">Price (RM)</th>
                                 <th class="px-4 py-2">Details</th>
                                 <th class="px-4 py-2">Status</th>
                                 <th class="px-4 py-2">Created At</th>
