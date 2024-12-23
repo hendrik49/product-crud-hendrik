@@ -60,8 +60,10 @@
         $(document).ready(function () {
             $('#products-table').DataTable({
                 "searching": true,         // Enable searching
-            "ordering": true,          // Enable sorting
-            "order": [[ 0, 'desc' ]] 
+                "ordering": true,          // Enable sorting
+                "paging": false,
+                "info": false, 
+                "order": [[ 0, 'desc' ]] 
             });
         });
     </script>
