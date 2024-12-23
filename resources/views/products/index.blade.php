@@ -30,7 +30,7 @@
                                 <tr class="border-b hover:bg-gray-50">
                                     <td class="px-4 py-2">{{ $loop->iteration }}</td>
                                     <td class="px-4 py-2">{{ $product->name }}</td>
-                                    <td class="px-4 py-2">${{ number_format($product->price, 2) }}</td>
+                                    <td class="px-4 py-2">{{ number_format($product->price, 2) }}</td>
                                     <td class="px-4 py-2">{{ $product->detail }}</td>
                                     <td class="px-4 py-2">{{ $product->is_publish ? 'Published' : 'Not Published' }}</td>
                                     <td class="px-4 py-2">{{ $product->created_at->format('j M Y, H:i'); }}</td>
