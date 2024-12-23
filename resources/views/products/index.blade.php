@@ -62,8 +62,7 @@
                 "searching": true,         // Enable searching
                 "ordering": true,          // Enable sorting
                 "paging": false,
-                "info": false, 
-                "order": [[ 0, 'desc' ]] 
+                "info": false
             });
         });
     </script>
