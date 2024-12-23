@@ -18,7 +18,8 @@
                             <tr class="border-b">
                                 <th class="px-4 py-2">#</th>
                                 <th class="px-4 py-2">Name</th>
-                                <th class="px-4 py-2">Price</th>
+                                <th class="px-4 py-2">Price (Rm)</th>
+                                <th class="px-4 py-2">Details</th>
                                 <th class="px-4 py-2">Status</th>
                                 <th class="px-4 py-2">Created At</th>
                                 <th class="px-4 py-2">Actions</th>
@@ -30,6 +31,7 @@
                                     <td class="px-4 py-2">{{ $loop->iteration }}</td>
                                     <td class="px-4 py-2">{{ $product->name }}</td>
                                     <td class="px-4 py-2">${{ number_format($product->price, 2) }}</td>
+                                    <td class="px-4 py-2">{{ $product->detail }}</td>
                                     <td class="px-4 py-2">{{ $product->is_publish ? 'Published' : 'Not Published' }}</td>
                                     <td class="px-4 py-2">{{ $product->created_at->format('j M Y, H:i'); }}</td>
                                     <td class="px-4 py-2">
